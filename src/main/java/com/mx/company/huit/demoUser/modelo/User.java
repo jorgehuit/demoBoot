@@ -9,7 +9,7 @@ import javax.persistence.Table;
 import lombok.Data;
 
 @Entity
-@Table(name="USER", schema="TICKET")
+@Table(name="USER", schema="HHH")
 @Data
 public class User {
 
@@ -18,6 +18,6 @@ public class User {
 	private Long id;
 	private String username;
 	private String address;
-	private String email; 
+	private String email;
 	
 }

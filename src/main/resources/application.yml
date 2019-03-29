@@ -1,0 +1,18 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://localhost:3306/HHH?serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: root
+    password: 1qazxsw2
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+    hibernate: 
+      ddl-auto: update
+      
+server:
+  port: 8080
